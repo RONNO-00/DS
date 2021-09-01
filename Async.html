@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+const longrun = ms => {
+        console.log("LongRun Starting");
+        let start = new Date;
+        while(new Date-start < ms){
+        console.log("Ending Long Run");
+        }
+
+};//!Does Nothing
+
+const frozen = () =>{
+
+    console.log("Frozen staring");
+    longrun(10000);
+    console.log("Ending Frozen");
+
+}
+const Notfreezing = () => {
+
+    console.log("Starting NotFreezing");
+    setTimeout(longrun,5000,15000);
+    console.log("Ending NotFreezing");
+
+}
+
+console.log ("Program Start");
+setTimeout(longrun,7000,10000);
+console.log("Exiting Program");
+</script>
+<body>
+    <input type = "number">
+    <button onclick="longrun">longrun</button>
+    <button onclick="frozen()">Freezing</button>
+    <button onclick="Notfreezing()">NotFreezing</button>
+</body>
+</html>

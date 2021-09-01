@@ -1,0 +1,24 @@
+{
+    "Fruits": [
+        {"Item" : 1,"ProductName" : "Apple", "ProductPrice": 50
+        },
+        { "Item" : 2,"ProductName": "Orange", "ProductPrice": 100
+        },
+        { "Item" : 3,"ProductName": "Kiwi", "ProductPrice": 100
+        },
+        { "Item" : 4,"ProductName": "Coconut", "ProductPrice": 50
+        },
+        { "Item" : 5,"ProductName": "Promogranate", "ProductPrice": 80
+        },
+        {"Item" : 6,"ProductName": "Promogranate", "ProductPrice": 80
+        },
+        {"Item" : 7,"ProductName": "DragonFruit", "ProductPrice": 200
+        },
+        {"Item" : 8,"ProductName": "Avacado", "ProductPrice": 250
+        },
+        {"Item" : 9,"ProductName": "Grapes", "ProductPrice": 40
+        },
+        {"Item" : 10, "ProductName": "BlueBerry", "ProductPrice": 450
+        }
+    ]
+}
